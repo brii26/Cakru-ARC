@@ -1,0 +1,3 @@
+Fork pada github biasanya digunakan untuk meng-clone repository seseorang ke repository yang kita miliki. Seluruh hal yang berada pada repository mulai dari commits, tag, branches, dan version control data tercopy seluruhnya. Biasanya hal tersebut dilakukan saat seseorang ingin mengubah sedikit / banyak isi dari code yang berada pada repository tersebut pada clone repository yang telah kita fork.
+
+Pull request pada github biasanya digunakan setelah melakukan Fork pada repository seseorang, dan mengubah isi dari repository tersebut pada clone repository. Lalu untuk mengajukan perubahan yang telah kita modifikasi kepada pemilik repository, dilakukan Pull request agar pemilik repository dapat merge perubahan yang telah kita lakukan pada repository pemilik.
