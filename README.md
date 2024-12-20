@@ -1,208 +1,125 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OxmXQmdu)
-<br />
-<div align="center">
-  <h1 align="center">Tugas Besar IF2110 Algoritma & Struktur Data ITB</h1>
-  <p align="center">
-    <h3> PurryMail</h3>
-    <h4> Program simulasi Email dengan bahasa C </h4>
-<br>
-</p>
-</div>
-<!-- CONTRIBUTOR -->
-<div align="center" id="contributor">
-  <strong>
-    <h3>Dipersiapkan oleh Kelompok K03 - C</h3>
-    <table align="center">
-      <tr>
-        <td style="text-align: center;">NIM</td>
-        <td style="text-align: center;">Nama</td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">13523129</td>
-        <td style="text-align: center;">Ivant Samuel Silaban</td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">13523142</td>
-        <td style="text-align: center;">Nathanael Rachmat</td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">13523154</td>
-        <td style="text-align: center;">Theo Kurniady</td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">13523158</td>
-        <td style="text-align: center;">Lukas Raja Agripa</td>
-      </tr>
-      <tr>
-        <td style="text-align: center;">13522160</td>
-        <td style="text-align: center;">I Made Wiweka Putera</td>
-      </tr>
-    </table>
-  </strong>
-</div>
+> Camel Pop
 
-## External Links
+## memulai program 
 
-- [Link Drive](https://drive.google.com/drive/folders/1JAVO1-JrP30rbMhhLhjYVrhoF0vDTs09)
-- [Link Spesifikasi](https://docs.google.com/document/d/19kKYXkapPCNZzR6tMNw01RW-NoHgLkcz-Aj4VuKoD-M/edit?tab=t.0#heading=h.kfubrmne03ed)
-- [Link Q&A](https://docs.google.com/spreadsheets/d/1Bh_0vtsmF0947cgc54ObfWdCI-fS-AcO1k3jpzTXm5U/edit?usp=drive_web&ouid=106681560138166355842)
-- [Link Laporan](https://docs.google.com/document/d/1LMkrz6R9FI4Kr7ff8PmJTAjHgR_hN9lW/edit)
+program ini dimulai dengan mengetikan "start_game" pada terimnal gnu prolog
 
-## Pendahuluan
+```shell
+start_game.
+```
 
-Tugas besar ini bertujuan agar dapat mengenali dan memahami konsep dan dasar struktur data, mendesain dan mengimplementasi struktur data, melakukan pemecahan masalah menggunakan struktur data yang sesuai, dan dapat menggunakan struktur data yang telah disediakan oleh pustaka 
+Here you should say what actually happens when you execute the code above.
 
-<p align="center">
-Anda dapat melihat spesifikasi tugas besar tersebut melalui link berikut :
-<br>
-<a href="https://docs.google.com/document/d/19kKYXkapPCNZzR6tMNw01RW-NoHgLkcz-Aj4VuKoD-M/edit?tab=t.0#heading=h.kfubrmne03ed"> <Strong>Spesifikasi Tugas Besar IF2110 Algoritma & Struktur Data 2024/2025</Strong>
-</a>
-</p>
+### Initial Configuration
 
-<!-- GETTING STARTED -->
-## Getting Started
+Some projects require initial configuration (e.g. access tokens or keys, `npm i`).
+This is the section where you would document those requirements.
 
-### Prerequisites
+## Developing
 
-Untuk melakukan kompilasi dan penggunaan Makefile diperlukan 
+Here's a brief intro about what a developer must do in order to start developing
+the project further:
 
-* Makefile 
-  ```sh
-  # untuk Linux Ubuntu
-  sudo apt install make
-  ```
-* GCC
-  ```sh
-  # untuk Linux Ubuntu
-  sudo apt install gcc
-  ```
-### Installation
+```shell
+git clone https://github.com/your/awesome-project.git
+cd awesome-project/
+packagemanager install
+```
 
-_Berikut adalah proses instalasi_
+And state what happens step-by-step.
 
-1. Clone the repo
-   ```sh
-   https://github.com/Labpro-21/if2110-tugas-besar-2024-if2110-03-c.git
-   ```
-2. Install GCC
-   ```sh
-   sudo apt install gcc
-   ```
-3. Install Make
-   ```sh
-   sudo apt install make
-   ```
-4. CD to project directory
-   ```sh
-   cd if2110-tugas-besar-2024-if2110-03-c
-   ```
-4. Use Makefile to run the program
-   ```sh
-   make all
-   ```
-<!-- INSTURCTION -->
-## Instruction
-Instruksi-instruksi yang dapat dilakukan :
+### Building
 
-`make build` : To build from source to binary into bin/main  
-`make all` : Run binary directly after building   
-`make clean` : Remove all build generated files  
+If your project needs some additional steps for the developer to build the
+project after some code changes, state them here:
 
+```shell
+./configure
+make
+make install
+```
 
-<!-- FEATURES -->
+Here again you should state what actually happens when the code above gets
+executed.
+
+### Deploying / Publishing
+
+In case there's some step you have to take that publishes this project to a
+server, this is the right time to state it.
+
+```shell
+packagemanager deploy awesome-project -s server.com -u username -p password
+```
+
+And again you'd need to tell what the previous code actually does.
+
 ## Features
 
-### Fitur Utama
+What's all the bells and whistles this project can perform?
+* What's the main functionality
+* You can also do another thing
+* If you get really randy, you can even do this
 
-### 1. Inisialisasi
-Memuat database pengguna, email, data umum, data group, dan jadwal kesibuikan dari file konfigurasi untuk mendukung seluruh fitur aplikasi.
+## Configuration
 
-### 2. Perintah
-Menyediakan berbagai perintah dan mengeksekusinya seperti (tidak terbatas padaa) login, logout, baca pesan, dan daftar inbox untuk navigasi sistem.
+Here you should write what are all of the configurations a user can enter when
+using the project.
 
-### 3. Pengguna
-Mengelola informasi pengguna, termasuk autentikasi dengan fitur login/logout.
-Daftar Perintah :
-- `REGISTER`: Mendaftarkan pengguna baru ke sistem.
-- `LOGIN`: Masuk ke sistem menggunakan email dan kata sandi.
-- `LOGOUT`: Keluar dari akun pengguna saat ini.
+#### Argument 1
+Type: `String`  
+Default: `'default value'`
 
-### 4. Draft Email
-Membantu pengguna menyusun, menyimpan, mengubah, dan mengirim draft email.
-Daftar Perintah :
-- `BUAT_DRAFT`: Membuat draft email baru. 
-- `BATAL`: Membatalkan draft yang sedang dibuat.
-- `UBAH_DRAFT`: Mengedit draft yang sudah ada.
-- `KIRIM_DRAFT`: Mengirim email dari draft yang dipilih.
-- `LIHAT_DRAFT`: Menampilkan detail draft saat ini.
-- `UNDO`: Membatalkan perubahan terakhir pada draft.
-- `REDO`: Mengembalikan perubahan yang dibatalkan.
+State what an argument does and how you can use it. If needed, you can provide
+an example below.
 
-### 5. Inbox Utama Email
-Menampilkan daftar email yang diterima pengguna dengan fitur pagination.
-Daftar Perintah :
-- `DAFTAR_INBOX`: Menampilkan semua email yang diterima pengguna.
-- `LANJUT`: Navigasi ke halaman berikutnya dalam daftar inbox.
-- `SEBELUM`: Navigasi ke halaman sebelumnya dalam daftar inbox.
-- `BACA_PESAN`: Membaca detail email tertentu.
-- `KELUAR`: Keluar dari tampilan inbox.
+Example:
+```bash
+awesome-project "Some other value"  # Prints "You're nailing this readme!"
+```
 
-### 6. Balas Email
-Memungkinkan pengguna membalas email dengan subjek dan isi otomatis.
-Daftar Perintah :
-- `BALAS_PESAN [EMAIL ID]`: Membalas email berdasarkan ID dengan menambahkan subjek otomatis (Re:)
+#### Argument 2
+Type: `Number|Boolean`  
+Default: 100
 
-### 7. Status Kepentingan
-Memberikan label penting pada email untuk pengelompokan prioritas.
-Daftar Perintah :
-- `STATUS_KEPENTINGAN`: Menandai atau menghapus tanda kepentingan pada email tertentu.
+Copy-paste as many of these as you need.
 
-### 8. Notifikasi
-Memberikan pemberitahuan untuk email baru dan tindakan penting lainnya.
+## Contributing
 
-### 9. Save & Load
-Menyimpan dan memuat data ke/dari file konfigurasi.
-Daftar Perintah :
-- `SAVE`: Menyimpan database pengguna, email, dan grup ke file konfigurasi.
-- `LOAD`: Memuat database dari file konfigurasi yang dipilih
+When you publish something open source, one of the greatest motivations is that
+anyone can just jump in and start contributing to your project.
 
-### Fitur Tambahan
+These paragraphs are meant to welcome those kind souls to feel that they are
+needed. You should state something like:
 
-### 1. Enkripsi
-Melindungi isi email dengan enkripsi sederhana untuk keamanan data.
-Daftar Perintah :
-- `ENKRIPSI`: Menenkripsi pesan pada email.
-- `DEKRIPSI`: Mendekripsi pesan yang dienkripsi.
+"If you'd like to contribute, please fork the repository and use a feature
+branch. Pull requests are warmly welcome."
 
-### 2. Starred Email
-Memberi tanda bintang pada email penting untuk akses cepat ke inbox khusus.
-Daftar Perintah :
-- `STAR [EMAIL ID]`: Menandai email dengan ID tertentu sebagai email penting.
-- `DAFTAR_STARRED`: Menampilkan daftar email yang diberi tanda bintang.
-- `UNSTAR [EMAIL ID]`: Menghapus tanda bintang dari email tertentu.
+If there's anything else the developer needs to know (e.g. the code style
+guide), you should link it here. If there's a lot of things to take into
+consideration, it is common to separate this section to its own file called
+`CONTRIBUTING.md` (or similar). If so, you should say that it exists here.
 
-### 3. Mailing List
-Membuat grup email untuk mengirim pesan ke banyak penerima sekaligus.
-Daftar Perintah :
-- `BUAT_GROUP`: Membuat grup baru dengan nama tertentu dan daftar anggota.
-- `DAFTAR_GROUP`: Menampilkan daftar grup yang telah dibuat.
-- `BROADCAST [GROUPID]`: Mengirim email broadcast ke semua anggota group berdasarkan ID group.
-- `LIHAT [GROUPID]`: Melihat informasi group berdasarkan ID group.
+## Links
 
-### 4. Jadwal Kesibukan
-Menyimpan jadwal kesibukan mingguan setiap agen sehingga agen-agen dapat melihat waktu luang agen lain.
-Daftar Perintah :
-- `LIHAT_JADWAL`: Melihat jadwal kesibukan user sendiri.
-- `LIHAT_JADWAL [EMAIL USER]`: Menampilkan jadwal kesibuikan user lain berdasarkan email user lain yang diinput.
-- `UBAH_JADWAL`: Mengubah jadwal kesibukan user sendiri.
+Even though this information can be found inside the project on machine-readable
+format like in a .json file, it's good to include a summary of most useful
+links to humans using your project. You can include links like:
 
-### 5. Scheduling
-Menampilkan jadwal kesibukan gabungan seluruh agen yang diundang (termasuk diri sendiri).
-Daftar Perintah :
-- `SCHEDULE [USER EMAILS]`: Menampilkan jadwal kesibukan gabungan antara diri sendiri dan seluruh agen yang diundang.
-- `LIHAT_JADWAL [EMAIL USER]`: Menampilkan jadwal kesibuikan user lain berdasarkan email user lain yang diinput.
-- `UBAH_JADWAL`: Mengubah jadwal kesibukan user sendiri.
+- Project homepage: https://your.github.com/awesome-project/
+- Repository: https://github.com/your/awesome-project/
+- Issue tracker: https://github.com/your/awesome-project/issues
+  - In case of sensitive bugs like security vulnerabilities, please contact
+    my@email.com directly instead of using issue tracker. We value your effort
+    to improve the security and privacy of this project!
+- Related projects:
+  - Your other project: https://github.com/your/other-project/
+  - Someone else's project: https://github.com/someones/awesome-project/
 
 
-<br>
-<h3 align="center"> THANK YOU! </h3>
+## Licensing
+
+One really important part: Give your project a proper license. Here you should
+state what the license is and how to find the text version of the license.
+Something like:
+
+"The code in this project is licensed under MIT license."
